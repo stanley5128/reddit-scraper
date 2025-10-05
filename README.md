@@ -1,18 +1,27 @@
-# Reddit Scraper App
+# 🦊 Reddit Scraper App
 
-A simple python script that fetches top Reddit posts using the Reddit API and saves them to a CSV file
+A simple Python script that fetches top Reddit posts using the Reddit API and saves them into a CSV file.
 
-## Features
+## 🚀 Features
 
-- Fetches posts by subreddit
-- Saves title, score, and URL to CSV
-- Easy to modify and expand
+- Fetches posts from any subreddit
+- Saves post title, score, and URL into a CSV file
+- Uses environment variables for secure API authentication
+- Easy to modify and expand (e.g., add date filters or export formats)
 
-## How to Run
+## 🧰 Tech Stack
 
-1. Clone the repository
-2. Run the script:
+- _Python 3_
+- _PRAW (Python Reddit API Wrapper)_
+- _dotenv_
+- _CSV module_
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
 
 ```bash
-python scraper_csv.py
+git clone https://github.com/stanley5128/reddit-scraper.git
+cd reddit-scraper
+
 ```
